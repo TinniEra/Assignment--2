@@ -1,3 +1,297 @@
-body{
-     background-color: black;
+ 
+   
+ 
+ body{
+   background-color: black;
 }
+
+.{
+    margin: 20px;  
+    padding: 0;
+}
+.container{
+     width: 90%;
+     margin: 5rem auto;
+       
+}
+   
+ .color  {
+     color:rgb(255,84,0);
+     font-size: 36px;
+     
+    
+}
+.nav-bar{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+      
+
+}
+ 
+    
+ 
+.nav-option{
+     display: flex;
+                        
+     gap:2rem;
+     justify-content: space-evenly;
+     color: white;
+     background: #222;
+     border-radius: 3rem;
+     align-items: center;
+     position: relative;
+     padding-inline-start: 1px;
+      border: #222;
+     width: 526px;
+     height: 50px;
+}
+.colo{
+     color: rgb(255,84,0);
+}
+.nav-option{
+     cursor: pointer;
+}
+ /*------banner----*/
+  
+ 
+.explore-your-fitness{
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     gap: 25rem;  
+      
+   
+ 
+   
+} 
+.explore-your-fitness img{
+     width:  70%;
+     height: 420px;   
+}
+  
+  
+ .text-content  h1{
+    
+     row-gap: 1rem;
+     justify-content: space-between;
+     text-align: left;
+     font-size: 4rem;
+     color:  white;
+ }
+ .text-content p{
+     color: lightslategray;
+     text-align: left;
+     padding-right: 20px;
+ }
+  
+ .btn-primary{
+     width: 170px;
+     padding:  0.7rem 1.2rem;
+     border: 1px solid;
+     color: white;
+     background-color: rgb(255,84,0);
+     border-radius: 3rem;
+     cursor: pointer;
+     margin-left:2%; 
+     margin-bottom: 6%;
+      
+ }
+ .btnn-primary{
+     width: 170px;
+     padding:  0.7rem 1.2rem;
+     border: 1px solid;
+     color: white;
+     background-color: black;
+     border-radius: 3rem;
+     cursor: pointer;
+ }
+  
+  /*--habit---*/
+
+  h3{
+     color: white;
+     text-align: center;
+     font-size: 36px;
+  }
+  p{
+     color: grey;
+     text-align: center;
+     font-size: 18px;
+     
+  }
+
+  .your-habit img{
+     border-radius: 50%;
+
+  }
+  .row-1{
+     display: grid;
+     grid-template-columns:  0.8fr 0.8fr 0.8fr 0.8fr;
+     margin: 1rem 0;
+     gap:  0.3rem;
+     
+  }
+  .fitness-card{
+     position:   relative;
+  }
+  h4{
+     color: white;
+     font-size: 25px;
+     text-align: center;
+     top:50%;
+     left: 30%; 
+     transform: translate(-20%,-20%);
+  }
+  .Change-habit{
+     color: grey;
+     text-align: center;
+     font-size: 18px;
+     top:50%;
+     left: 30%; 
+     transform: translate(-20%,-20%);
+
+  }
+  .run-mile {
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     gap: 5rem;
+     background-color:#222 ;  
+     border-top-left-radius: 2rem;
+     border-top-right-radius: 2rem;
+     border-bottom-left-radius: 2rem;
+     border-bottom-right-radius: 2rem;
+     margin-right:  4rem;
+     margin-left: 4rem;
+     margin-bottom: 5rem;
+      
+
+  } 
+  .run-mile img{
+     width:  70%;  
+      height: 300px;   
+     border-radius: 3rem; 
+     margin-top:4rem;
+   margin-left:   5rem;
+   margin-bottom: 4rem;
+    
+   
+     
+  }
+  .textt-content h2{
+     color: white;
+     font-size:  80px;
+     margin-left:  5%;
+    
+  }
+  .textt-content p{
+   
+ 
+   color: grey;
+    
+   font-size:  20px;
+   margin-left: 2rem;
+   margin-bottom:  5rem;
+   
+  
+  
+  text-align: left;
+    
+  }
+ /*---team---*/
+ .meet-our-team {
+  
+   justify-content: center;
+   background-color: #222; 
+   padding-bottom: 2%;
+   padding-top: 2%;
+   border-radius:  3rem;
+   padding-left: 3%;
+   
+
+
+  
+   
+ } 
+ .roow-1 ,.roow-2{
+   display: grid;
+   grid-template-columns: 0.8fr 0.8fr 0.8fr;
+   
+ }
+ .meet-our-team img{
+   width:  50%;
+   height:   200px;
+  margin-left: 5rem;
+  margin-right: 3rem;  
+  margin-bottom:  1rem;  
+  
+   border-radius: 3rem;
+   
+ } 
+ .team-card{
+   position: relative;
+ }
+ .team-card h3{
+   position: absolute;
+   color: white;
+     font-size:   10px;
+     font-weight: bold;
+      text-align: left;
+     top:  70%;
+     left:   28%;
+     transform: translate(-20%,-20%);
+    
+ }
+ .team-card p{
+   position: absolute;
+   color: grey;
+     text-align:  center;
+     font-size:  10px;
+    bottom: 10%;
+    left:  25%;  
+     
+    
+ }
+ .footer-section{
+    background:  #222;  
+    padding:2rem 0; 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+ }
+ .footer{
+   color:  rgb(255,84,0);
+   font-style: italic;
+   font-size:  40px;
+   font-weight: bold;
+ }
+ .footer-color{
+  color: darkgrey;
+ line-height: 20px;
+ letter-spacing: 1px;
+ left: 10%;
+  text-align: left;
+ 
+ }
+   .footerr-color{
+      color: darkgray;
+      text-align: center;
+   }
+   
+     
+     
+
+    
+ 
+   
+   
+
+
+
+
+
+
+
+
+   
+  
+  
+    
