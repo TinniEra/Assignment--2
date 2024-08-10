@@ -1,3 +1,4 @@
+<<<<<<< HEAD
  
    
  
@@ -7,6 +8,13 @@
 
 .{
     margin: 20px;  
+=======
+  body{
+      background-color: black;
+  }
+.{
+    margin: 0;
+>>>>>>> 4b4e17c31aa35805ebc02a5c6c2e9e40585ee51e
     padding: 0;
 }
 .container{
@@ -59,13 +67,23 @@
      display: grid;
      grid-template-columns: 1fr 1fr;
      gap: 25rem;  
+<<<<<<< HEAD
       
+=======
+     filter: brightness( #222); 
+     
+   
+>>>>>>> 4b4e17c31aa35805ebc02a5c6c2e9e40585ee51e
    
  
    
 } 
 .explore-your-fitness img{
+<<<<<<< HEAD
      width:  70%;
+=======
+     width:  50%;
+>>>>>>> 4b4e17c31aa35805ebc02a5c6c2e9e40585ee51e
      height: 420px;   
 }
   
@@ -155,7 +173,11 @@
      display: grid;
      grid-template-columns: 1fr 1fr;
      gap: 5rem;
+<<<<<<< HEAD
      background-color:#222 ;  
+=======
+     background-color:rgba(250, 235, 215, 0.14);  
+>>>>>>> 4b4e17c31aa35805ebc02a5c6c2e9e40585ee51e
      border-top-left-radius: 2rem;
      border-top-right-radius: 2rem;
      border-bottom-left-radius: 2rem;
@@ -252,7 +274,11 @@
     
  }
  .footer-section{
+<<<<<<< HEAD
     background:  #222;  
+=======
+    background:rgba(250, 235, 215, 0.14);  
+>>>>>>> 4b4e17c31aa35805ebc02a5c6c2e9e40585ee51e
     padding:2rem 0; 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
