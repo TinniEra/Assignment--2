@@ -1,12 +1,30 @@
-  body{
+ 
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+ 
+ 
+
+ 
+
+
+ body{
       background-color: black;
   }
  
 .container{
      width: 90%;
-     margin: 5rem auto;
+     margin: 2rem auto;
        
 }
+ 
+
+.dancing-script  {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400 ;
+  font-style: normal;
+}
+
+ 
    
  .color  {
      color:rgb(255,84,0);
@@ -71,8 +89,9 @@
      font-size: 4rem;
      color:  white;
  }
+  
  .text-content p{
-     color: lightslategray;
+     color:  gray ;
      text-align: left;
      padding-right: 20px;
  }
@@ -183,13 +202,79 @@
     
    font-size:  20px;
    margin-left: 2rem;
-   margin-bottom:  5rem;
+   
    
   
   
   text-align: left;
     
   }
+ /*----Bmi calculation*/
+      .bmi-calculation{
+         background-color: #222;
+        display: flex;
+        gap: 3rem;
+         padding: 2rem 0;
+        padding-left:  10rem; 
+
+    }
+ table,th,td{
+   border: 1px,solid gray;
+   border-collapse: collapse;
+ }
+ th,td{
+   padding: 15px;
+ }
+ th{
+   text-align: center;
+    color: aliceblue;
+ }
+ td{
+   color:  gray;
+ }
+ .center{
+   text-align: left;
+   padding-left: 1rem;
+ }
+ .centerr{
+   text-align: left;
+   padding-left:20rem;  
+ }
+ form input{
+  width: 300px;
+  padding: 18px;
+  border-radius:15px;    
+  border: none;
+  border: 1px solid gray;
+  background-color: #222; 
+ }
+ .select-1{
+    width:   650px  ;
+    padding: 18px;
+    border-radius:15px;  
+    border: none;
+    border: 1px solid gray;
+    background-color: #222; 
+
+
+  
+
+
+}
+  .btnnn-primary{
+  width: 210px; 
+  padding:  0.7rem 1.2rem;
+  border: 1px solid;
+  color: white;
+  background-color: rgb(255,84,0);
+  border-radius: 2rem;
+  margin-left:2%; 
+  margin-bottom: 6%;
+   
+ }
+  
+
+  
  /*---team---*/
  .meet-our-team {
   
@@ -199,7 +284,7 @@
    padding-top: 2%;
    border-radius:  3rem;
    padding-left: 3%;
-   
+ 
 
 
   
@@ -268,6 +353,7 @@
       color: darkgray;
       text-align: center;
    }
+    
    
      
      
